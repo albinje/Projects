@@ -1,0 +1,49 @@
+﻿Code Samples Related to Recent Research
+
+
+This repository contains two representative code samples that demonstrate the computational and modeling aspects of my recent academic work in cosmology.  
+They highlight my experience in large-scale structure modeling, Bayesian parameter inference, and high-performance computing.
+
+
+
+
+1. TNG_fit_CHIME.ipynb
+
+
+Description: 
+This Jupyter notebook performs an MCMC-based parameter inference to fit a theoretical 21 cm power-spectrum model to the neutral hydrogen (HI) power spectrum extracted from the IllustrisTNG hydrodynamical simulations.
+
+
+Purpose:
+To validate that our analytical 21 cm power-spectrum model exhibits realistic behavior over the wavenumber ranges probed by the CHIME intensity-mapping experiment.  
+By comparing with IllustrisTNG outputs, we ensure that the modeled scale dependence and amplitude evolution are physically consistent with galaxy formation physics encoded in state-of-the-art simulations.
+
+
+Key Features:
+- Loads H I power-spectrum data from IllustrisTNG snapshots.  
+- Implements modeling of redshift-space distortions and nonlinear damping.  
+- Runs Bayesian parameter inference using MCMC sampling.  
+- Produces posterior distributions, best-fit parameters, and diagnostic plots.
+
+
+
+
+2. CUDA_dark_energy_inference.cu
+
+
+Description: 
+A CUDA C++ code designed for cosmological parameter inference in extended ΛCDM (Lambda Cold Dark Matter) models.  
+It uses GPU acceleration to efficiently compute theoretical predictions and likelihoods for cosmological observables.
+
+
+Purpose:
+To perform fast, parallelized parameter estimation using Cosmic Chronometer, Supernova Ia (SN), and Baryon Acoustic Oscillation (BAO) datasets.  
+This framework explores dark-energy parameter spaces beyond ΛCDM using high-performance computing techniques.
+
+
+
+
+Key Features:
+- GPU-accelerated likelihood evaluation and model computation using CUDA kernels.  
+- Incorporates datasets from cosmic chronometers, SNe Ia, and BAO measurements.  
+- Performs χ² minimization and parameter-space sampling for cosmological models with interacting or evolving dark energy.

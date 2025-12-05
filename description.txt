@@ -32,7 +32,7 @@ Key Features:
 
 
 Description: 
-A CUDA C++ code designed for cosmological parameter inference in extended ΛCDM (Lambda Cold Dark Matter) models.  
+A CUDA C code designed for cosmological parameter inference in extended ΛCDM (Lambda Cold Dark Matter) models.  
 It uses GPU acceleration to efficiently compute theoretical predictions and likelihoods for cosmological observables.
 
 
@@ -46,4 +46,5 @@ This framework explores dark-energy parameter spaces beyond ΛCDM using high-per
 Key Features:
 - GPU-accelerated likelihood evaluation and model computation using CUDA kernels.  
 - Incorporates datasets from cosmic chronometers, SNe Ia, and BAO measurements.  
+
 - Performs χ² minimization and parameter-space sampling for cosmological models with interacting or evolving dark energy.
